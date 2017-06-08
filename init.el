@@ -13,6 +13,7 @@
 (require 'projectile-prefs)
 (require 'helmproj-prefs)
 (require 'magit-prefs)
+(require 'company-prefs)
 ;; (require 'multi-cursor-prefs)
 
 (require 'js-prefs)
@@ -30,7 +31,7 @@
  '(custom-enabled-themes (quote (misterioso)))
  '(package-selected-packages
    (quote
-    (helm-projectile org-projectile projectile company-emacs-eclim company-shell company helm-pydoc magit helm htmlize monokai-theme lua-mode multiple-cursors)))
+    (company-math helm-projectile org-projectile projectile company-emacs-eclim company-shell company helm-pydoc magit helm htmlize monokai-theme lua-mode multiple-cursors)))
  '(tab-stop-list
    (quote
     (4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84 88 92 96 100 104 108 112 116 120))))
