@@ -3,3 +3,10 @@
 
 # Packaging
 .cask
+
+# MacOS filesystem litter
+.DS_Store
+
+# Packages
+elpa/*
+

@@ -9,6 +9,7 @@
 (setq inhibit-splash-screen 1)
 (setq mouse-wheel-progressive-speed nil)
 (setq ring-bell-function 'ignore)
+(global-set-key (kbd "C-x o") 'other-window)
 
 ;; Default window size
 (when window-system (set-frame-width (selected-frame) 85))
