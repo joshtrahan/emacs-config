@@ -6,6 +6,7 @@
 (column-number-mode 1)
 (transient-mark-mode 1)
 (electric-pair-mode 1)
+(recentf-mode -1)
 (setq inhibit-splash-screen 1)
 (setq mouse-wheel-progressive-speed nil)
 (setq ring-bell-function 'ignore)
