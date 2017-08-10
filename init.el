@@ -5,6 +5,7 @@
 (package-initialize)
 
 (add-to-list 'load-path "~/.emacs.d/prefs")
+
 (require 'ui-prefs)
 (require 'edit-prefs)
 
@@ -14,6 +15,7 @@
 (require 'helmproj-prefs)
 (require 'magit-prefs)
 (require 'company-prefs)
+(require 'epg-prefs)
 ;; (require 'multi-cursor-prefs)
 
 (require 'js-prefs)
@@ -30,7 +32,7 @@
    [default default default italic underline success warning error])
  '(ansi-color-names-vector
    ["#2e3436" "#a40000" "#4e9a06" "#c4a000" "#204a87" "#5c3566" "#729fcf" "#eeeeec"])
- '(custom-enabled-themes (quote (tsdh-dark)))
+ '(custom-enabled-themes (quote (misterioso)))
  '(package-selected-packages
    (quote
     (company-math helm-projectile org-projectile projectile company-emacs-eclim company-shell company helm-pydoc magit helm htmlize monokai-theme lua-mode multiple-cursors)))
