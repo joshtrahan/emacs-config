@@ -10,3 +10,9 @@
 # Packages
 elpa/*
 
+# Tetris scores
+games/*
+
+# Recently accessed files
+recentf
+
