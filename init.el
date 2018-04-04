@@ -21,6 +21,7 @@
 (require 'js-prefs)
 (require 'org-prefs)
 (require 'python-prefs)
+(require 'rust-prefs)
 
 ;; Automatically added by theme customization menu
 (custom-set-variables
