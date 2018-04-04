@@ -5,6 +5,7 @@
 (package-initialize)
 
 (add-to-list 'load-path "~/.emacs.d/prefs")
+
 (require 'ui-prefs)
 (require 'edit-prefs)
 
@@ -14,6 +15,7 @@
 (require 'helmproj-prefs)
 (require 'magit-prefs)
 (require 'company-prefs)
+(require 'epg-prefs)
 ;; (require 'multi-cursor-prefs)
 
 (require 'js-prefs)
@@ -29,6 +31,8 @@
  ;; If there is more than one, they won't work right.
  '(ansi-color-faces-vector
    [default default default italic underline success warning error])
+ '(ansi-color-names-vector
+   ["#2e3436" "#a40000" "#4e9a06" "#c4a000" "#204a87" "#5c3566" "#729fcf" "#eeeeec"])
  '(custom-enabled-themes (quote (misterioso)))
  '(package-selected-packages
    (quote
@@ -43,3 +47,8 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+;; Fix for a security bug in emacs released before 25.3
+(eval-after-load "enriched"
+  '(defun enriched-decode-display-prop (start end &optional param)
+     (list start end)))
