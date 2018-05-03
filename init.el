@@ -11,6 +11,7 @@
 
 (require 'package-prefs)
 (require 'helm-prefs)
+(require 'treemacs-prefs)
 (require 'projectile-prefs)
 (require 'helmproj-prefs)
 (require 'magit-prefs)
@@ -22,7 +23,7 @@
 (require 'org-prefs)
 (require 'python-prefs)
 (require 'rust-prefs)
-
+;; changed thing
 ;; Automatically added by theme customization menu
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -34,9 +35,11 @@
  '(ansi-color-names-vector
    ["#2e3436" "#a40000" "#4e9a06" "#c4a000" "#204a87" "#5c3566" "#729fcf" "#eeeeec"])
  '(custom-enabled-themes (quote (misterioso)))
+ '(epa-pinentry-mode (quote loopback))
+ '(epg-gpg-program "/usr/local/bin/gpg2")
  '(package-selected-packages
    (quote
-    (company-math helm-projectile org-projectile projectile company-emacs-eclim company-shell company helm-pydoc magit helm htmlize monokai-theme lua-mode multiple-cursors)))
+    (treemacs rust-mode company-math helm-projectile org-projectile projectile company-emacs-eclim company-shell company helm-pydoc magit helm htmlize monokai-theme lua-mode multiple-cursors)))
  '(tab-stop-list
    (quote
     (4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84 88 92 96 100 104 108 112 116 120))))
