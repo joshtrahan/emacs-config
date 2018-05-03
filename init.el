@@ -23,7 +23,7 @@
 (require 'org-prefs)
 (require 'python-prefs)
 (require 'rust-prefs)
-;; changed thing
+
 ;; Automatically added by theme customization menu
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -39,6 +39,7 @@
  '(epg-gpg-program "/usr/local/bin/gpg2")
  '(package-selected-packages
    (quote
+
     (treemacs rust-mode company-math helm-projectile org-projectile projectile company-emacs-eclim company-shell company helm-pydoc magit helm htmlize monokai-theme lua-mode multiple-cursors)))
  '(tab-stop-list
    (quote

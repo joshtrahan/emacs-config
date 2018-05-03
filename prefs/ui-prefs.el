@@ -2,7 +2,7 @@
 
 (tool-bar-mode 0)
 (scroll-bar-mode 0)
-;; (menu-bar-mode 0) ;; Comment out for Ubuntu, where the menu bar takes no room
+(menu-bar-mode 0) ;; Comment out for Ubuntu, where the menu bar takes no room
 (column-number-mode 1)
 (transient-mark-mode 1)
 (electric-pair-mode 1)
