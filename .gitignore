@@ -16,7 +16,11 @@ games/*
 # Recently accessed files
 recentf
 
+# Backup
+*~
+
 # Idk
 auto-save-list/
 auto-save-list/*
-
+network-security.data
+tramp
